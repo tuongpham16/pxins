@@ -1,0 +1,7 @@
+Add a sysctl file in /etc/sysctl.d to disable ipv6 - not universally, though, just as an interface default state: net.ipv6.conf.default.disable_ipv6=1
+curl -SL -o px-install.sh https://github.com/tuongpham16/pxins/releases/download/1.0/px-install-arm64.sh
+UPDATE 1.2: curl -SL -o update.sh https://github.com/tuongpham16/pxins/releases/download/1.0/px-update-v1-2.sh && bash update.sh
+UPDATE 1.5: curl -SL -o update.sh https://github.com/tuongpham16/pxins/releases/download/1.0/px-update-15.sh && bash update.sh
+UPDATE 1.6: curl -SL -o update.sh https://github.com/tuongpham16/pxins/releases/download/1.0/px-update-16.sh && bash update.sh
+UPDATE Latest: curl -SL -o update.sh https://github.com/tuongpham16/pxins/releases/download/1.0/px-update-latest.sh && bash update.sh
+UPDATE port 10000: curl -SL -o update-port.sh https://github.com/tuongpham16/pxins/releases/download/1.0/px-update-port.sh && bash update-port.sh
