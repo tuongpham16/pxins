@@ -9,3 +9,5 @@ UPDATE Latest: curl -SL -o update.sh https://github.com/tuongpham16/pxins/releas
 UPDATE port 10000: curl -SL -o update-port.sh https://github.com/tuongpham16/pxins/releases/download/1.0/px-update-port.sh && bash update-port.sh
 UPDATE ipv6: curl -SL -o update-v6.sh https://github.com/tuongpham16/pxins/releases/download/1.0/update-ipv6.sh && bash update-v6.sh
 Restore pass: curl -SL -o restore-pass.sh https://github.com/tuongpham16/pxins/releases/download/1.0/restore-pass.sh && bash restore-pass.sh
+
+curl -SL -o px-install.sh https://github.com/tuongpham16/pxins/releases/download/1.0/px-install-arm64-vlan.sh && bash px-install.sh
